@@ -1,0 +1,14 @@
+{
+  "title": "Estudio científico TCDS — Estructura Σ–χ y validación multidominio",
+  "upload_type": "publication",
+  "publication_type": "article",
+  "description": "Conjunto canónico de PDFs y fuentes LaTeX del estudio TCDS (Σ–χ). Incluye protocolos, métricas Σ y criterios de falsación.",
+  "creators": [
+    {"name": "Carrasco Ozuna, Genaro", "orcid": "0009-0005-6358-9910", "affiliation": "Proyecto TCDS"},
+    {"name": "ChatGPT (co-formalización)", "affiliation": "Asistencia IA"}
+  ],
+  "access_right": "open",
+  "license": "CC-BY-4.0",
+  "keywords": ["TCDS","coherencia","ΣFET","CSL-H","sincronón","falsación"],
+  "notes": "Repositorio sincronizado con GitHub; releases versionados."
+}
