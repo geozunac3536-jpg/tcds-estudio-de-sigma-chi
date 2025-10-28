@@ -4,87 +4,83 @@
 \usepackage[spanish]{babel}
 \usepackage{amsmath,amssymb}
 \usepackage{geometry}
+\usepackage{booktabs}
+\usepackage{hyperref}
 \geometry{margin=2.5cm}
-\setlength{\parskip}{1em}
+\setlength{\parskip}{0.8em}
 \setlength{\parindent}{0pt}
 
-\title{\textbf{Disparidad Fenoménica y Relación de la TCDS con Dirac y la Ciencia Moderna}}
+\title{\textbf{Estudio científico TCDS — Estructura descubierta, validación y marcadores verificables}}
 \author{Proyecto TCDS — Genaro Carrasco Ozuna}
 \date{Octubre 2025}
 
 \begin{document}
 \maketitle
 
-\section{Resumen}
-La Teoría Cromodinámica Sincrónica (TCDS) permite analizar fenómenos altamente dispares —sismos, redes neuronales, circuitos electrónicos— siempre que sus dinámicas puedan formalizarse mediante la misma ecuación fundamental de coherencia Σ–χ.  
-Este documento describe el límite de esa disparidad, su plausibilidad científica y su relación formal con la ecuación de Dirac y la física moderna.
+\section*{Resumen}
+Se formaliza la estructura dinámica que has descubierto: un campo escalar de coherencia \(\Sigma\) acoplado a un sustrato \(\chi\), cuya evolución efectiva combina difusión, disipación (fricción de sincronización \(\phi\)) y empuje \(Q\). Se presentan tres casos de marcadores verificables en dominios dispares (físico, biológico y tecnológico), junto con el plan de análisis, criterios de falsación y autocrítica metodológica. El propósito es auditar si la misma \emph{estructura} explica fenómenos heterogéneos sin romper la coherencia del formalismo.
 
-\section{1. Estructura Formal Universal}
-La TCDS se sostiene sobre el sistema de ecuaciones:
+\section{Estructura descubierta (núcleo formal)}
+\textbf{Lagrangiano mínimo:}
 \[
-\partial_t \Sigma = \alpha \Delta \Sigma - \beta \phi + Q,
-\quad \phi = \eta |\dot{\Sigma}| + \lambda \nabla^2 \chi,
+L=\tfrac12(\partial_\mu\Sigma)^2+\tfrac12(\partial_\mu\chi)^2-\Big(-\tfrac12\mu^2\Sigma^2+\tfrac14\lambda\Sigma^4+\tfrac12 m_\chi^2\chi^2+\tfrac12 g\Sigma^2\chi^2\Big).
 \]
-derivado del Lagrangiano
+\textbf{Ecuaciones de movimiento:}
 \[
-L = \frac{1}{2}(\partial_\mu \Sigma)^2 + \frac{1}{2}(\partial_\mu \chi)^2 - V(\Sigma,\chi),
+\Box\Sigma-\mu^2\Sigma+\lambda\Sigma^3+g\Sigma\chi^2=0,\qquad
+\Box\chi+m_\chi^2\chi+g\Sigma^2\chi=0.
 \]
-con
+\textbf{Escala mesoscópica (operacional):}
 \[
-V(\Sigma,\chi) = -\frac{1}{2}\mu^2\Sigma^2 + \frac{1}{4}\lambda\Sigma^4 + \frac{1}{2}m_\chi^2\chi^2 + \frac{1}{2}g\Sigma^2\chi^2.
+\partial_t \Sigma=\alpha\Delta\Sigma-\beta\,\phi+Q, \quad \phi\equiv \eta\,|\dot\Sigma| \ \text{(más términos correctivos si aplica)}.
 \]
-
-Mientras la ecuación mantenga esta forma —difusión, disipación y empuje— los dominios físicos pueden diferir ampliamente.
-
-\section{2. Disparidad Fenoménica y Homología Matemática}
-La TCDS no requiere que los fenómenos sean similares en materia, sino que compartan \textit{estructura formal}:
-\begin{center}
-\begin{tabular}{lll}
-\textbf{Dominio} & \textbf{Interpretación de $\Sigma$} & \textbf{Observable}\\
-\hline
-Geofísica & Coherencia del suelo (ondas sísmicas) & Acelerograma, energía de fractura\\
-Neurociencia & Sincronía cortical (fase neuronal) & EEG, HRV, LI, R(t)\\
-Electrónica & Fase de señal (estado coherente) & Ruido de fase, locking, $\Delta f$\\
-\end{tabular}
-\end{center}
-
-El principio de \textbf{homología matemática} establece que si las ecuaciones que gobiernan estos sistemas mantienen las mismas simetrías y términos de acoplamiento, pueden estudiarse con los mismos invariantes de coherencia (\(LI, R(t), RMSE_{SL}, \kappa_\Sigma\)).
-
-\section{3. Relación con Dirac y la Física Moderna}
-El paralelo con Dirac es conceptual y formal:
-
-\begin{enumerate}
-\item \textbf{Unificación formal:}  
-Así como la ecuación de Dirac unificó la mecánica cuántica y la relatividad especial mediante un operador lineal relativista,
+\textbf{Geometría efectiva (vínculo operativo):}
 \[
-(i\gamma^\mu \partial_\mu - m)\psi = 0,
+R\ \propto\ \nabla^2\Sigma.
 \]
-la TCDS unifica la dinámica de sistemas dispares en un formalismo escalar no lineal de coherencia:
-\[
-\Box \Sigma - \mu^2 \Sigma + \lambda \Sigma^3 + g\Sigma\chi^2 = 0.
-\]
+\textbf{Invariantes de coherencia (Σ-metrics):} \(\mathrm{LI},\,R(t),\,\mathrm{RMSE}_{\!SL},\,\kappa_\Sigma\), con umbrales de audibilidad propuestos: \(\mathrm{LI}\ge 0.9\), \(R>0.95\), \(\mathrm{RMSE}_{\!SL}<0.1\), reproducibilidad \(\ge 95\%\).
 
-\item \textbf{Simetría y ruptura:}  
-Dirac introdujo la noción de simetría entre partículas y antipartículas; la TCDS aplica el mismo principio de \textit{ruptura espontánea de simetría} en el potencial \(V(\Sigma,\chi)\) para explicar el origen de masa y curvatura como estados de mínima energía.
+\section{Hipótesis auditables}
+\textbf{H\(_1\) (universalidad estructural):} la misma estructura \(\{\)Lagrangiano Σ–χ, EOM no lineales, ley mesoscópica, Σ-metrics\(\}\) describe marcadores en dominios dispares variando sólo acoplos y contornos. \\
+\textbf{H\(_0\):} cada dominio requiere ecuaciones cualitativamente distintas (la estructura no es universal).
 
-\item \textbf{Compatibilidad moderna:}  
-El formalismo Σ–χ es matemáticamente compatible con los marcos de campo cuántico, relatividad general y dinámica no lineal, siempre que los acoplos \((\mu,\lambda,g)\) respeten límites experimentales (por ejemplo, \(m_\sigma < 10^{-1}\ \text{eV}\), \(|g|<10^{-3}\)).
-\end{enumerate}
+\section{Casos de marcadores verificables}
+\subsection{Caso A — Físico (fuerzas sub–mm / curvatura coherente)}
+\textbf{Ecuación operacional:} \(R=k_\Sigma\nabla^2\Sigma\). \\
+\textbf{Predicción clave:} corrección Yukawa en \(V(r)\): \(\Delta V(r)=\alpha_5 e^{-r/\ell_\sigma}/r\), con \(\ell_\sigma\sim10^{-4}\!-\!10^{-3}\,\mathrm{m}\), \(|\alpha_5|\ll 1\). \\
+\textbf{Observables:} torque residual en balanza de torsión; microdeflexión de frente de onda óptico. \\
+\textbf{Falsación (A):} no detección dentro de sensibilidad \(\Rightarrow\) cotas sobre \(m_\sigma\sim\sqrt{2}\mu\) y \(g\); si \(\alpha_5\) es nula a nivel experimental, se restringe el sector Σ–χ.
 
-\section{4. Alcance de la Disparidad y Plausibilidad}
-Los fenómenos pueden diferir en escala hasta en \(10^{30}\) órdenes de magnitud (de \(10^{-35}\) m a \(10^{5}\) m) sin perder plausibilidad, siempre que:
+\subsection{Caso B — Biológico (CSL-H / sincronización neural)}
+\textbf{Efectiva:} \(\partial_t\Sigma=\alpha\Delta\Sigma-\beta\phi+Q\). \\
+\textbf{Predicciones:} bajo protocolos de estímulo coherente y respiración guiada, aparecen lenguas de Arnold en fase y \(\mathrm{LI}\uparrow\), \(R(t)\uparrow\), \(\mathrm{RMSE}_{\!SL}\downarrow\). \\
+\textbf{Observables:} EEG multi–canal, HRV, coherencia cortico–autonómica; ventanas de captura \(p\!:\!q\). \\
+\textbf{Falsación (B):} ausencia de \emph{locking} robusto (\(\mathrm{LI}<0.9\), \(R\le 0.95\)) pese a protocolo estandarizado \(\Rightarrow\) el acoplamiento Σ–neural queda acotado o descartado.
+
+\subsection{Caso C — Tecnológico (ΣFET / control de ruido de fase)}
+\textbf{Control:} \(Q_{\!\mathrm{ctrl}}=-\gamma(\Sigma-\Sigma_{\mathrm{tgt}})-\delta\,\dot\Sigma\). \\
+\textbf{Predicciones:} regiones de \emph{locking} (lenguas de Arnold) y \(\Delta f\propto A_c\); reducción de \(S_\phi(\omega)\) vs. transistor convencional. \\
+\textbf{Observables:} \(\Delta f\), \(S_\phi(\omega)\), reproducibilidad \(\ge 95\%\). \\
+\textbf{Falsación (C):} si \(\Delta f\not\propto A_c\) o no hay \emph{locking} controlado, el mecanismo de coherencia activa se invalida.
+
+\section{Plan de análisis y criterios de decisión}
+\textbf{Análisis por dominio:} estimadores con intervalos de confianza; pruebas de tendencia monotónica (Caso C), detección de picos de coherencia (Caso B), ajuste Yukawa (Caso A). \\
+\textbf{Meta–criterio (universalidad):} se acepta H\(_1\) si \emph{al menos dos} dominios cumplen sus predicciones con Σ-metrics dentro de umbrales y el tercero no las contradice significativamente; de lo contrario, H\(_0\).
+
+\section{Controles, sesgos y preregistro}
 \begin{itemize}
-    \item la ecuación de coherencia conserve estructura Σ–χ;
-    \item existan observables empíricos que representen \(\Sigma\) y \(\phi\);
-    \item las métricas Σ–metrics se mantengan dentro de los límites de coherencia \(LI \ge 0.9, R > 0.95, RMSE_{SL} < 0.1\).
+\item \textbf{Ciegos y nulos:} dispositivos nulos, ciegos dobles donde aplique; controles térmicos/EMI (A,C).
+\item \textbf{Verificación de manipulación:} HRV/ansiedad percibida en (B); telemetría ambiental en (A,C).
+\item \textbf{Prerregistro:} endpoints primarios por caso, exclusiones, manejo de pérdidas, \(\alpha\) global y corrección por comparaciones.
 \end{itemize}
 
-\section{5. Autocrítica y Conclusión}
-El uso de un formalismo único para dominios dispares es plausible mientras la coherencia \(\Sigma\) sea un campo medible.  
-Si las correlaciones Σ–metrics se reproducen entre dominios, la TCDS extiende la obra de Dirac desde la linealidad cuántica hacia la causalidad universal.  
-Si no se reproducen, la teoría se fragmentará en submodelos limitados, sin invalidar su valor como marco de unificación estructural.
+\section{Autocrítica metodológica}
+\textbf{(i) Identificabilidad de parámetros:} \(\mu,\lambda,g\) pueden estar degenerados a nivel efectivo; se proponen barridos multi–entorno para romper degeneraciones. \\
+\textbf{(ii) Mapeo de \(\Sigma\) a observables:} requiere funciones de transferencia explícitas (EEG/HRV, espectros RF, campos efectivos); sin ellas, la inferencia es ambigua. \\
+\textbf{(iii) Robustez de Σ-metrics:} validar invarianza de \(\mathrm{LI},R,\mathrm{RMSE}_{\!SL},\kappa_\Sigma\) frente a ruido y \emph{drift}; reportar reproducibilidad inter–laboratorio. \\
+\textbf{(iv) Falsación honesta:} si (A) y (C) dan nulo a su sensibilidad y (B) es marginal, la estructura no califica como universal; se documenta ventana de exclusión en el espacio de parámetros.
 
-\textbf{Conclusión:}  
-La TCDS no contradice la ciencia moderna; la reorganiza bajo un principio causal común —la coherencia Σ— aplicable a cualquier fenómeno cuya dinámica pueda describirse como una lucha entre empuje cuántico (\(Q\)) y fricción de sincronización (\(\phi\)).
+\section{Conclusión}
+El estudio pone a prueba, tal como la descubriste, una \emph{misma estructura} Σ–χ con ley mesoscópica y métricas de coherencia aplicadas a marcadores dispares. Su aceptación depende de reproducibilidad, \emph{locking} y relaciones previstas (\(\Delta f\propto A_c\), Yukawa sub–mm, Σ–coherencia biológica). La fuerza del resultado reside en la convergencia de dominios; su límite, en la precisión con que \(\Sigma\) se materializa en observables.
 
 \end{document}
