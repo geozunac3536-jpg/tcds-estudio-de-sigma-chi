@@ -1,14 +1,14 @@
 cff-version: 1.2.0
-message: "If you use this software, please cite it as below."
+title: "Estudio científico TCDS — Estructura Σ–χ y validación multidominio"
+message: "Si usas este trabajo, cita este repositorio."
+type: software
 authors:
-- family-names: "YOUR_NAME_HERE"
-  given-names: "YOUR_NAME_HERE"
-  orcid: "https://orcid.org/0000-0000-0000-0000"
-- family-names: "Lisa"
-  given-names: "Mona"
-  orcid: "https://orcid.org/0000-0000-0000-0000"
-title: "tcds-estudio-de-sigma-chi"
-version: 1.0.0
-doi: 10.5281/zenodo.1234
-date-released: 2025-10-28
-url: "https://github.com/geozunac3536-jpg/tcds-estudio-de-sigma-chi"
+  - family-names: "Carrasco Ozuna"
+    given-names: "Genaro"
+    orcid: "https://orcid.org/0009-0005-6358-9910"
+  - family-names: "ChatGPT"
+    given-names: "Asistente de formalización"
+repository-code: "https://github.com/<tu_usuario>/tcds-estudio-estructura-sigma-chi"
+license: "CC-BY-4.0"
+keywords: [TCDS, Sigma, coherencia, ΣFET, CSL-H, sincronón, falsación]
+version: "v1.0.0"
