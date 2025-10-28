@@ -1,0 +1,90 @@
+% !TEX program = pdflatex
+\documentclass[12pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[spanish]{babel}
+\usepackage{amsmath,amssymb}
+\usepackage{geometry}
+\geometry{margin=2.5cm}
+\setlength{\parskip}{1em}
+\setlength{\parindent}{0pt}
+
+\title{\textbf{Disparidad Fenoménica y Relación de la TCDS con Dirac y la Ciencia Moderna}}
+\author{Proyecto TCDS — Genaro Carrasco Ozuna}
+\date{Octubre 2025}
+
+\begin{document}
+\maketitle
+
+\section{Resumen}
+La Teoría Cromodinámica Sincrónica (TCDS) permite analizar fenómenos altamente dispares —sismos, redes neuronales, circuitos electrónicos— siempre que sus dinámicas puedan formalizarse mediante la misma ecuación fundamental de coherencia Σ–χ.  
+Este documento describe el límite de esa disparidad, su plausibilidad científica y su relación formal con la ecuación de Dirac y la física moderna.
+
+\section{1. Estructura Formal Universal}
+La TCDS se sostiene sobre el sistema de ecuaciones:
+\[
+\partial_t \Sigma = \alpha \Delta \Sigma - \beta \phi + Q,
+\quad \phi = \eta |\dot{\Sigma}| + \lambda \nabla^2 \chi,
+\]
+derivado del Lagrangiano
+\[
+L = \frac{1}{2}(\partial_\mu \Sigma)^2 + \frac{1}{2}(\partial_\mu \chi)^2 - V(\Sigma,\chi),
+\]
+con
+\[
+V(\Sigma,\chi) = -\frac{1}{2}\mu^2\Sigma^2 + \frac{1}{4}\lambda\Sigma^4 + \frac{1}{2}m_\chi^2\chi^2 + \frac{1}{2}g\Sigma^2\chi^2.
+\]
+
+Mientras la ecuación mantenga esta forma —difusión, disipación y empuje— los dominios físicos pueden diferir ampliamente.
+
+\section{2. Disparidad Fenoménica y Homología Matemática}
+La TCDS no requiere que los fenómenos sean similares en materia, sino que compartan \textit{estructura formal}:
+\begin{center}
+\begin{tabular}{lll}
+\textbf{Dominio} & \textbf{Interpretación de $\Sigma$} & \textbf{Observable}\\
+\hline
+Geofísica & Coherencia del suelo (ondas sísmicas) & Acelerograma, energía de fractura\\
+Neurociencia & Sincronía cortical (fase neuronal) & EEG, HRV, LI, R(t)\\
+Electrónica & Fase de señal (estado coherente) & Ruido de fase, locking, $\Delta f$\\
+\end{tabular}
+\end{center}
+
+El principio de \textbf{homología matemática} establece que si las ecuaciones que gobiernan estos sistemas mantienen las mismas simetrías y términos de acoplamiento, pueden estudiarse con los mismos invariantes de coherencia (\(LI, R(t), RMSE_{SL}, \kappa_\Sigma\)).
+
+\section{3. Relación con Dirac y la Física Moderna}
+El paralelo con Dirac es conceptual y formal:
+
+\begin{enumerate}
+\item \textbf{Unificación formal:}  
+Así como la ecuación de Dirac unificó la mecánica cuántica y la relatividad especial mediante un operador lineal relativista,
+\[
+(i\gamma^\mu \partial_\mu - m)\psi = 0,
+\]
+la TCDS unifica la dinámica de sistemas dispares en un formalismo escalar no lineal de coherencia:
+\[
+\Box \Sigma - \mu^2 \Sigma + \lambda \Sigma^3 + g\Sigma\chi^2 = 0.
+\]
+
+\item \textbf{Simetría y ruptura:}  
+Dirac introdujo la noción de simetría entre partículas y antipartículas; la TCDS aplica el mismo principio de \textit{ruptura espontánea de simetría} en el potencial \(V(\Sigma,\chi)\) para explicar el origen de masa y curvatura como estados de mínima energía.
+
+\item \textbf{Compatibilidad moderna:}  
+El formalismo Σ–χ es matemáticamente compatible con los marcos de campo cuántico, relatividad general y dinámica no lineal, siempre que los acoplos \((\mu,\lambda,g)\) respeten límites experimentales (por ejemplo, \(m_\sigma < 10^{-1}\ \text{eV}\), \(|g|<10^{-3}\)).
+\end{enumerate}
+
+\section{4. Alcance de la Disparidad y Plausibilidad}
+Los fenómenos pueden diferir en escala hasta en \(10^{30}\) órdenes de magnitud (de \(10^{-35}\) m a \(10^{5}\) m) sin perder plausibilidad, siempre que:
+\begin{itemize}
+    \item la ecuación de coherencia conserve estructura Σ–χ;
+    \item existan observables empíricos que representen \(\Sigma\) y \(\phi\);
+    \item las métricas Σ–metrics se mantengan dentro de los límites de coherencia \(LI \ge 0.9, R > 0.95, RMSE_{SL} < 0.1\).
+\end{itemize}
+
+\section{5. Autocrítica y Conclusión}
+El uso de un formalismo único para dominios dispares es plausible mientras la coherencia \(\Sigma\) sea un campo medible.  
+Si las correlaciones Σ–metrics se reproducen entre dominios, la TCDS extiende la obra de Dirac desde la linealidad cuántica hacia la causalidad universal.  
+Si no se reproducen, la teoría se fragmentará en submodelos limitados, sin invalidar su valor como marco de unificación estructural.
+
+\textbf{Conclusión:}  
+La TCDS no contradice la ciencia moderna; la reorganiza bajo un principio causal común —la coherencia Σ— aplicable a cualquier fenómeno cuya dinámica pueda describirse como una lucha entre empuje cuántico (\(Q\)) y fricción de sincronización (\(\phi\)).
+
+\end{document}
