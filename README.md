@@ -7,7 +7,7 @@ Repositorio canónico de los PDFs y LaTeX del estudio:
 - `estudio_tcds.tex`
 
 ## Cómo citar
-Ver el archivo `CITATION.cff` o el DOI de Zenodo (badge) cuando esté disponible.
+Ver el archivo `CITATION.cff` o el DOI de Zenodo (badge) cuando esté disponible.`https://doi.org/10.5281/zenodo.17469326`
 
 ## Licencia
 Contenido de texto y PDFs: CC BY 4.0 (ver `LICENSE`).
