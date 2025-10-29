@@ -1,9 +1,7 @@
 name: Deploy GitHub Pages
-
 on:
   push:
-    branches:
-      - main  # rama principal
+    branches: [main]
   workflow_dispatch:
 
 permissions:
@@ -19,24 +17,11 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout del código
-        uses: actions/checkout@v4
-
-      - name: Configurar GitHub Pages
-        uses: actions/configure-pages@v5
-
-      # Si tu sitio está hecho en HTML, no necesitas build adicional.
-      # Si usas Jekyll, Hugo o un generador, agrega los pasos aquí.
-      # Por ejemplo (solo si tienes un build):
-      # - name: Construir sitio
-      #   run: |
-      #     npm install
-      #     npm run build
-
-      - name: Subir artefacto
-        uses: actions/upload-pages-artifact@v3
+      - uses: actions/checkout@v4
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
         with:
-          path: './'  # Carpeta raíz o la de salida de tu build (dist/, public/, etc.)
+          path: ./   # cambia a ./docs si tu sitio está en /docs
 
   deploy:
     runs-on: ubuntu-latest
@@ -45,6 +30,5 @@ jobs:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
-      - name: Desplegar a GitHub Pages
-        id: deployment
+      - id: deployment
         uses: actions/deploy-pages@v4
