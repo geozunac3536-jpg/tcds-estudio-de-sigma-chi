@@ -18,10 +18,10 @@
 
 | Archivo | Descripción |
 |----------|-------------|
-| [`ESTRUCTURAS_DISPARES.pdf`](TCDS_Estudio_Sigma_Chi_GA4/tcds_estudio_de_sigma_chi/ESTRUCTURAS_DISPARES.pdf)| Análisis comparativo de coherencia Σ en sistemas dispares. |
-| [`Llave_maestra.pdf`](TCDS_Estudio_Sigma_Chi_GA4/tcds_estudio_de_sigma_chi/Llave_maestra.pdf)| Cierre ontológico Σ–χ y vínculo con σ. |
-| [`Nulidad_probabilistica.pdf`](TCDS_Estudio_Sigma_Chi_GA4/tcds_estudio_de_sigma_chi/Nulidad_probabilistica.pdf)| Formalismo de nulidad probabilística en dinámica coherencial. |
-| [`estudio_tcds.tex`](TCDS_Estudio_Sigma_Chi_GA4/tcds_estudio_de_sigma_chi/estudio_tcds.tex)Fuente LaTeX auditable del estudio completo. |
+| [`DISPARES`](TCDS_Estudio_Sigma_Chi_GA4/tcds_estudio_de_sigma_chi/ESTRUCTURAS_DISPARES.pdf)| Análisis comparativo de coherencia Σ en sistemas dispares. |
+| [`LLAVE MAESTRA`](TCDS_Estudio_Sigma_Chi_GA4/tcds_estudio_de_sigma_chi/Llave_maestra.pdf)| Cierre ontológico Σ–χ y vínculo con σ. |
+| [`PROBABILIDAD NULA`](TCDS_Estudio_Sigma_Chi_GA4/tcds_estudio_de_sigma_chi/Nulidad_probabilistica.pdf)| Formalismo de nulidad probabilística en dinámica coherencial. |
+| [`ESTUDIO`](TCDS_Estudio_Sigma_Chi_GA4/tcds_estudio_de_sigma_chi/estudio_tcds.tex)Fuente LaTeX auditable del estudio completo. |
 
 ---
 
@@ -53,8 +53,8 @@ Ver `LICENSE` para detalles completos.
 
 ## 🔒 Integridad (SHA-256)
 
-Los valores completos constan en `INVENTARIO_SHA256.csv`.  
-Cada enlace en el sitio incluye su `data-sha256` para trazabilidad con Σ-metrics y GA4.
+Los valores completos constan en [`INVENTARIO_SHA256`](TCDS_ESTUDIO_SIGMA_CHI_GA4/INVENTARIO_SHA256.csv)
+Cada enlace en el sitio incluye su [`data-sha256`](TCDS_ESTUDIO_SIGMA_CHI_GA4/GTAG_SNIPPET.HTML)trazabilidad con Σ-metrics y GA4.
     © 2025 Genaro Carrasco Ozuna — Proyecto TCDS · Integración GA4 Σ–metrics · Licencia CC BY-NC-SA 4.0
   
 
