@@ -53,4 +53,40 @@ Ver `LICENSE` para detalles completos.
 ## 🔒 Integridad (SHA-256)
 
 Los valores completos constan en `INVENTARIO_SHA256.csv`.  
-Cada enlace en el sitio incluye su `data-sha256` para trazabilidad con Σ-metrics y GA4.
+Cada enlace en el sitio incluye su `data-sha256` para trazabilidad con Σ-metrics y GA4.ESTRUCTURAS_DISPARES.pdf   8abd2f29d7a21f23…
+Llave_maestra.pdf           e2d4524e8f82e1cc…
+Nulidad_probabilistica.pdf  51cb5b5439b8d93a…
+---
+
+## 🎞️ Pulso Coherencial Σ(t)
+
+<div align="center">
+<svg width="600" height="160" viewBox="0 0 600 160" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="grad" x1="0" x2="1" y1="0" y2="0">
+      <stop offset="0%" stop-color="#1f6feb" />
+      <stop offset="100%" stop-color="#3fb950" />
+    </linearGradient>
+  </defs>
+  <path id="wave" fill="none" stroke="url(#grad)" stroke-width="2">
+    <animate attributeName="d" dur="4s" repeatCount="indefinite"
+      values="
+      M0,80 Q50,40 100,80 T200,80 T300,80 T400,80 T500,80 T600,80;
+      M0,80 Q50,120 100,80 T200,80 T300,80 T400,80 T500,80 T600,80;
+      M0,80 Q50,40 100,80 T200,80 T300,80 T400,80 T500,80 T600,80" />
+  </path>
+  <text x="50%" y="120" text-anchor="middle" fill="#9fb5cc" font-family="monospace" font-size="14">
+    Σ(t) — Pulso coherencial del campo
+  </text>
+</svg>
+</div>
+
+---
+
+<div align="center">
+
+### 💠 *“La realidad no se observa: se sincroniza.”*  
+— *Canon Paradigmático TCDS*
+
+© 2025 Genaro Carrasco Ozuna · Proyecto TCDS  
+</div>
