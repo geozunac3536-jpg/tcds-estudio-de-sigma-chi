@@ -1,6 +1,7 @@
 # 🌌 Estudio Científico TCDS — Estructura Σ–χ
 
 [![DOI](https://zenodo.org/badge/1087938102.svg)](https://doi.org/10.5281/zenodo.17504506)
+
 [![DOI](https://zenodo.org/badge/1085307089.svg)](https://doi.org/10.5281/zenodo.17469326)
 
 ---
@@ -17,10 +18,10 @@
 
 | Archivo | Descripción |
 |----------|-------------|
-| `ESTRUCTURAS_DISPARES.pdf` | Análisis comparativo de coherencia Σ en sistemas dispares. |
-| `Llave_maestra.pdf` | Cierre ontológico Σ–χ y vínculo con σ. |
-| `Nulidad_probabilistica.pdf` | Formalismo de nulidad probabilística en dinámica coherencial. |
-| `estudio_tcds.tex` | Fuente LaTeX auditable del estudio completo. |
+| [`ESTRUCTURAS_DISPARES.pdf`](TCDS_Estudio_Sigma_Chi_GA4/tcds_estudio_de_sigma_chi/ESTRUCTURAS_DISPARES.pdf)| Análisis comparativo de coherencia Σ en sistemas dispares. |
+| [`Llave_maestra.pdf`](TCDS_Estudio_Sigma_Chi_GA4/tcds_estudio_de_sigma_chi/Llave_maestra.pdf)| Cierre ontológico Σ–χ y vínculo con σ. |
+| [`Nulidad_probabilistica.pdf`](TCDS_Estudio_Sigma_Chi_GA4/tcds_estudio_de_sigma_chi/Nulidad_probabilistica.pdf)| Formalismo de nulidad probabilística en dinámica coherencial. |
+| [`estudio_tcds.tex`](TCDS_Estudio_Sigma_Chi_GA4/tcds_estudio_de_sigma_chi/estudio_tcds.tex)Fuente LaTeX auditable del estudio completo. |
 
 ---
 
