@@ -1,0 +1,21 @@
+
+<!-- Reemplaza G-XXXXXXXXXX con tu Measurement ID -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-XXXXXXXXXX', { 'send_page_view': true });
+  function trackSigmaDownload(name, sha256, sizeBytes) {
+    gtag('event', 'sigma_download', {artifact_name: name, sha256: sha256, size_bytes: sizeBytes});
+  }
+  function trackSigmaLock(li, r, rmse, kappa, z) {
+    gtag('event', 'sigma_lock', {li: li, r_corr: r, rmse_sl: rmse, kappa_sigma: kappa, z_score: z});
+  }
+  function trackPredictionPublished(dateISO, region, magThr, hash) {
+    gtag('event', 'sigma_prediction_published', {pred_date: dateISO, region: region, mag_thr: magThr, hash_sha256: hash});
+  }
+  function trackPredictionVerified(dateISO, outcome, deltaHrs) {
+    gtag('event', 'sigma_prediction_verified', {pred_date: dateISO, outcome: outcome, delta_t_hours: deltaHrs});
+  }
+</script>
