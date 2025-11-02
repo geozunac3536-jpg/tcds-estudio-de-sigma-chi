@@ -1,4 +1,5 @@
 # Estudio científico TCDS — Estructura Σ–χ
+[![DOI](https://zenodo.org/badge/1087938102.svg)](https://doi.org/10.5281/zenodo.17504506)
 [![DOI](https://zenodo.org/badge/1085307089.svg)](https://doi.org/10.5281/zenodo.17469326)
 Repositorio canónico de los PDFs y LaTeX del estudio:
 - `ESTRUCTURAS_DISPARES.pdf`
