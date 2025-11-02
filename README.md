@@ -1,7 +1,7 @@
 # 🌌 Estudio Científico TCDS — Estructura Σ–χ
 
 [![DOI](https://zenodo.org/badge/1087938102.svg)](https://doi.org/10.5281/zenodo.17504506)
-
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17463045.svg)](https://doi.org/10.5281/zenodo.17463045)[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17450752.svg)](https://doi.org/10.5281/zenodo.17450752)
 [![DOI](https://zenodo.org/badge/1085307089.svg)](https://doi.org/10.5281/zenodo.17469326)
 
 ---
