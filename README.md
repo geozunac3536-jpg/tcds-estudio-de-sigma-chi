@@ -21,7 +21,7 @@
 | [`DISPARES`](TCDS_Estudio_Sigma_Chi_GA4/tcds_estudio_de_sigma_chi/ESTRUCTURAS_DISPARES.pdf)| Análisis comparativo de coherencia Σ en sistemas dispares. |
 | [`LLAVE MAESTRA`](TCDS_Estudio_Sigma_Chi_GA4/tcds_estudio_de_sigma_chi/Llave_maestra.pdf)| Cierre ontológico Σ–χ y vínculo con σ. |
 | [`PROBABILIDAD NULA`](TCDS_Estudio_Sigma_Chi_GA4/tcds_estudio_de_sigma_chi/Nulidad_probabilistica.pdf)| Formalismo de nulidad probabilística en dinámica coherencial. |
-| [`ESTUDIO`](TCDS_Estudio_Sigma_Chi_GA4/tcds_estudio_de_sigma_chi/estudio_tcds.tex)Fuente LaTeX auditable del estudio completo. |
+| [`ESTUDIO`](TCDS_Estudio_Sigma_Chi_GA4/tcds_estudio_de_sigma_chi/estudio_tcds.tex)| Fuente LaTeX auditable del estudio completo. |
 
 ---
 
