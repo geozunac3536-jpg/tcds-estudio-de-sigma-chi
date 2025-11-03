@@ -5,13 +5,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>TCDS Σ–χ — Integración GA4</title>
 
-  <!-- GA4 (reemplaza G-XXXXXXXXXX por tu Measurement ID) -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+  <!-- GA4 (reemplaza GTM-T343ZWN9 por tu Measurement ID) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=GTM-T343ZWN9"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
     gtag('js', new Date());
-    gtag('config', 'G-XXXXXXXXXX', { 'send_page_view': true });
+    gtag('config', 'GTM-T343ZWN9', { 'send_page_view': true });
 
     // Eventos Σ-metrics
     function trackSigmaDownload(name, sha256, sizeBytes){
